@@ -1,12 +1,234 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <script src="script.js"></script>
-  </body>
+<title>REVISTA U-SURÉ</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/icon.png" sizes="32x32">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/v4-shims.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+
+  <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <img src="img/icono.png" width="50px" height="60px">
+    <p>INICIO</p>
+  </a>
+  <a href="#ediciones" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PUBLICA<br>CIONES</p>
+  </a>
+	<a href="#secciones" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+		<i class="fas fa-file-alt w3-xxlarge"></i>
+		<p>SECCIONES</p>
+	</a>
+	<a href="#convocatoria" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+		<i class="fas fa-file w3-xxlarge"></i>
+		<p>CONVOCA<br>TORIA</p>
+	</a>
+	<a href="#articulos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+		<i class="fas fa-envelope-open-text w3-xxlarge"></i>
+		<p>ARTÍCULOS</p>
+	</a>
+	<a href="#nosotros" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+		<i class="fas fa-users w3-xxlarge"></i>
+		<p>QUIENES SOMOS</p>
+	</a>
+	<a href="#galeria" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fas fa-images w3-xxlarge"></i>
+    <p>GALERÍA</p>
+  </a>
+  <a href="#contacto" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACTO</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-center w3-small">
+    <a href="#home" class="w3-bar-item w3-button" style="width:25% !important">INICIO</a>
+    <a href="#ediciones" class="w3-bar-item w3-button" style="width:25% !important">PUBLICA<br>CIONES</a>
+		<a href="#secciones" class="w3-bar-item w3-button" style="width:25% !important">SECCIONES</a>
+		<a href="#convocatoria" class="w3-bar-item w3-button" style="width:25% !important">CONVOCA<br>TORIA</a>
+		<a href="#articulos" class="w3-bar-item w3-button" style="width:25% !important">ARTÍCULOS</a>
+		    <a href="#nosotros" class="w3-bar-item w3-button" style="width:25% !important">QUIENES SOMOS</a>
+				<a href="#galeria" class="w3-bar-item w3-button" style="width:25% !important">GALERÍA</a>
+    <a href="#contacto" class="w3-bar-item w3-button" style="width:25% !important">CONTACTO</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <img src="img/logo2.png" width="80%" height="50%">
+
+  </header>
+<div class="w3-container w3-center w3-black">
+	<h2 class="w3-text-light-grey" id="ediciones">PUBLICACIONES</h2>
+	<div class="w3-row-padding" style="margin:0 -16px">
+<div class="w3-half">
+	<h2>Segundo Número</h2>
+	<a id="joomag-embed-3c2bbec7-d830-4bd5-83f0-dd31a01eee04" href="https://view.joomag.com/mosaicos-culturales-u-suré-ii-edición/0045365001550143384" target="_blank"><img style="width:355px;" title="Mosaicos Culturales U-Suré_II-Edición" alt="Mosaicos Culturales U-Suré_II-Edición" src="https://www.joomag.com/Frontend/embed/cover/issue_cover.php?UID=0045365001550143384" /></a>
+</div>
+	<div class="w3-half">
+	<h2>Primer Número</h2>
+	<a id="joomag-embed-15d858e8-cf11-437b-a6ac-244743d50715" href="//view.joomag.com/mosaicos-culturales-antropología-y-transformación-social/0353492001550146851" target="_blank"><img style="width:355px;" title="Mosaicos Culturales Antropología y Transformación Social" alt="Mosaicos Culturales Antropología y Transformación Social" src="https://www.joomag.com/Frontend/embed/cover/issue_cover.php?UID=0353492001550146851" /></a>
+</div>
+</div>
+</div>
+  <!-- About Section -->
+	  <!--<div class="w3-content w3-justify w3-text-grey w3-padding-64">
+			<h2 class="w3-text-light-grey" id="convocatoria">CONVOCATORIA 3er Número</h2>
+			<hr style="width:200px" class="w3-opacity">
+			<p>
+				Abrimos la Convocatoria para el Tercer Número de Revista Usuré. Los temas elegidos son:
+				<ul><li>Antropología Visual</li><li>Antropología por Demanda</li></ul>
+
+				Acá puedes consultar los lineamientos:
+				<br>
+
+			</p>
+			<iframe src="https://drive.google.com/file/d/1Ax3NmzOJo1jTuy2Z9_6EcYAEBmeO7ilY/preview" width="95%" height="480"></iframe>
+
+			</div>-->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+
+		<h2 class="w3-text-light-grey" id="secciones">SECCIONES</h2>
+		<hr style="width:200px" class="w3-opacity">
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey" >
+      <div class="w3-quarter w3-section">
+        CALLEJEANDO
+      </div>
+      <div class="w3-quarter w3-section">
+        CUARTO OSCURO
+      </div>
+      <div class="w3-quarter w3-section">
+        ENTREVISTA
+      </div>
+      <div class="w3-quarter w3-section">
+        RESEÑA
+      </div>
+			<div class="w3-half w3-section">
+        ANTROPOARTE
+      </div>
+			<div class="w3-half w3-section">
+        ANTROPOLOGUEANDO
+      </div>
+    </div>
+		<div class="w3-content w3-justify w3-text-grey w3-padding-64">
+			<h2 class="w3-text-light-grey" id="articulos">ARTÍCULOS EN MEDIUM</h2>
+			<hr style="width:200px" class="w3-opacity">
+			<div id="medium-widget" style="background-color:red;padding: 10px;"></div>
+    <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@usure_ucr","postsPerLine":2,"limit":10,"picture":"none","fields":["description"],"ratio":"square"}})</script>
+		<p>Ver Más en: <a href="https://medium.com/@usure_ucr">https://medium.com/@usure_ucr</a></p>
+			</div>
+    <!-- Grid for pricing tables -->
+
+<div class="">
+	<br>
+	<br>
+	<br>
+</div>
+		<div id="nosotros">
+			<h2 class="w3-text-light-grey">¿QUIÉNES SOMOS?</h2>
+			<hr style="width:200px" class="w3-opacity">
+			<p>
+				Revista U-suré es una plataforma y colectivo de comunicación para la difusión de artículos estudiantiles de antropología y arqueología, textos literarios, fotoensayos y ensayos críticos.
+			</p>
+			<br>
+			<p>El U-suré (Ü-Sulé) o Casa Cósmica Talamanqueña es una casa o templo cónico que representa el universo en la cosmovisión indígena bribri. Hemos resignificado el nombre de la casa cósmica buscando rescatar esos valores de integralidad, equilibrio, cohesión y trabajo colectivo que representa. La Revista U-suré no tiene fines de lucro y se realiza por trabajo colaborativo con fines educativos.</p>
+			<br>
+			<p>
+				Actualmente el equipo está conformado por:
+				Caleb Alpízar, Kendall Badilla, Hawi Castañeda, Manuel Herrera, Kasia Luján, José Alberto Matarrita, Sandra Monge, Randall Sáenz y Milena Somogyi.
+			</p>
+  </div>
+	<!--<div class="w3-padding-64 w3-content" id="noticias">
+    <h2 class="w3-text-light-grey">NOTICIAS</h2>
+    <hr style="width:200px" class="w3-opacity">
+</div>-->
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="galeria">
+    <h2 class="w3-text-light-grey">NUESTRO TRABAJO</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+				<img src="img/usu3.jpg" style="width:100%">
+        <img src="img/usu1.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="img/usu2.jpg" style="width:100%">
+				<img src="img/usu4.jpg" style="width:100%">
+			</div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+	<div class="col l4 s12">
+
+
+
+
+
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contacto">
+    <h2 class="w3-text-light-grey">CONTACTO</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: revista.antro.ucr@gmail.com</p>
+    </div><br>
+    <p>Bienvenidos sus propuestas, comentarios y sugerencias. Envíenos un mensaje:</p>
+		<form action="https://formspree.io/revista.antro.ucr@gmail.com" method="POST">
+			<input class="w3-input w3-padding-16" type="text" name="name" placeholder="Nombre">
+			<input class="w3-input w3-padding-16" type="text" type="email" name="_replyto" placeholder="Correo">
+			<textarea name="message" placeholder="Mensaje" class="w3-input w3-padding-16" type="text" required></textarea>
+			<input class="w3-button w3-light-grey w3-padding-large"type="submit" value="Enviar">
+		</form>
+  <!-- End Contact Section -->
+  </div>
+
+    <!-- Footer -->
+		<div class="col l4 s12">
+			<h5 class="white-text">Enlaces de Interés</h5>
+			<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FRevistaUsure%2F&width=450&layout=standard&action=like&size=small&show_faces=false&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden"
+				scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+		</div>
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+		<h2 class="w3-text-light-grey">Visítanos en nuestras RRSS:</h2>
+    <a href="https://www.facebook.com/RevistaUsure/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/usure_revista/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+		<a href="https://medium.com/@usure_ucr"><i class="fab fa-medium"></i></a>
+    <p class="w3-medium">Revista U-suré CC-NC-SA 2019</p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
 </html>
